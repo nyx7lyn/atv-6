@@ -4,20 +4,20 @@ body {
     color: #333; 
 }
 
-.logo-img {
+.logo-img-small {
     width: 100px; 
     height: auto; 
     max-width: 100%; 
 }
 
-header {
+header-small {
     background-color: #4b0082; 
     color: #fff; 
     padding: 10px 0;
     text-align: center;
 }
 
-footer {
+footer-small {
     padding: 10px 0;
     text-align: center;
     font-size: 0.9em;
