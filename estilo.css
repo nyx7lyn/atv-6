@@ -10,6 +10,7 @@ header {
     background-color: #4b0082; /* Cor de fundo roxa escura */
     color: #fff; /* Cor do texto branca */
     padding: 20px 0;
+    text-align: center;
 }
 
 header img {
@@ -39,8 +40,16 @@ h1 {
 /* Estilo do carrossel */
 .carousel-inner img {
     max-height: 400px; /* Define a altura máxima das imagens */
-    object-fit: cover; /* Ajusta a imagem para preencher a altura sem distorcer */
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorcer */
     width: 100%; /* Garante que a imagem tenha a largura completa do contêiner */
+}
+
+/* Estilo das legendas do carrossel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para legibilidade */
+    color: #fff; /* Cor do texto branca */
+    padding: 10px;
+    border-radius: 5px; /* Bordas arredondadas */
 }
 
 /* Estilo das seções */
@@ -62,6 +71,7 @@ footer {
     color: #fff;
     padding: 20px 0;
     margin-top: 20px;
+    text-align: center;
 }
 
 footer p {
