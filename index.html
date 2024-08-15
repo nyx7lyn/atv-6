@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyx Sports</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="estilo.css"> 
+</head>
+<body>
+
+    <!-- Imagem do Logo -->
+    <header class="text-center">
+        <img src="imgs/logo.png" alt="Logo da Loja">
+        <h1>Nyx Sports</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Esporte/Basquete/index.html">Basquete</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Esporte/Skate/index.html">Skate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Esporte/Ciclismo/index.html">Ciclismo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container mt-4">
+        <h2 class="text-center">Produtos em Destaque</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="Esporte/Skate/index.html"><img src="imgs/skate.snakes.png" class="d-block w-100" alt="Produto de Skate"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skate Completo Pro</h5>
+                        <p>Ideal para quem busca performance.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="Esporte/Ciclismo/index.html"><img src="imgs/kit.seguranca.jpeg" class="d-block w-100" alt="Produto de Ciclismo"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bicicleta Speed Pro</h5>
+                        <p>Leve e rápida, perfeita para competições.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="Esporte/Basquete/index.html"><img src="imgs/bola3 - lançamento.jpg" class="d-block w-100" alt="Produto de Basquete"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bola de Basquete com swarovski</h5>
+                        <p>Alta durabilidade e aderência.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="container text-center mt-4">
+        <h2>Sobre a Loja</h2>
+        <img src="imgs/foto loja.jpeg" alt="Imagem da Loja" class="img-fluid">
+        <p>Bem-vindo à Minha Loja de Esportes, onde você encontra os melhores produtos para o seu esporte favorito!</p>
+    </section>
+
+    <section class="container mt-4">
+        <h2>Localização</h2>
+        <iframe src="https://www.google.com/maps/place/Sport+Center/@-16.16876,-42.2938519,20.25z/data=!4m14!1m7!3m6!1s0x74debf164f2884d:0x53d7c2a67499456d!2sSport+Center!8m2!3d-16.1687033!4d-42.2937317!16s%2Fg%2F11j4qpgv6m!3m5!1s0x74debf164f2884d:0x53d7c2a67499456d!8m2!3d-16.1687033!4d-42.2937317!16s%2Fg%2F11j4qpgv6m?entry=ttu" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="container mt-4">
+        <h2>Formas de Pagamento</h2>
+        <ul>
+            <li>Cartão de Crédito</li>
+            <li>Boleto Bancário</li>
+            <li>Pix</li>
+        </ul>
+    </section>
+
+    <footer class="container text-center mt-4">
+        <h2>Métodos de Pagamento Aceitos</h2>
+        <img src="imgs/pagamento.png" alt="Formas de Pagamento Aceitas" class="img-fluid">
+    </footer>
+
+    <section class="container mt-4 mb-4">
+        <h2>Proprietária</h2>
+        <ul>
+            <li>Evelyn Emanuelly</li>
+        </ul>
+    </section>
+
+</body>
+</html>
