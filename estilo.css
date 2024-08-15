@@ -1,122 +1,86 @@
-/* Estilos Globais */
+/* Estilo geral para a página */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #e6e6f2; /* Tom frio claro de fundo */
-    color: #333;
+    background-color: #f0f0f0; /* Fundo claro para contraste com os elementos */
+    color: #333; /* Cor do texto */
 }
 
-/* Cabeçalho */
+/* Estilo do cabeçalho */
 header {
-    background-color: #6a0dad; /* Roxo forte */
-    color: #fff;
+    background-color: #4b0082; /* Cor de fundo roxa escura */
+    color: #fff; /* Cor do texto branca */
     padding: 20px 0;
-    text-align: center;
 }
 
 header img {
-    max-width: 150px;
-    height: auto;
+    max-width: 150px; /* Tamanho máximo para o logo */
+    margin-bottom: 10px;
 }
 
-header h1 {
+h1 {
+    font-size: 2.5em;
     margin: 0;
-    font-size: 2em;
 }
 
-/* Menu de Navegação */
-nav {
-    background-color: #4b0082; /* Roxo escuro */
+/* Estilo da barra de navegação */
+.navbar {
+    background-color: #6a0dad; /* Cor de fundo roxa */
 }
 
-nav .navbar-nav .nav-link {
-    color: #e0e0ff; /* Tom frio claro */
-    padding: 15px;
+.navbar .nav-link {
+    color: #fff; /* Cor do texto dos links */
+    font-weight: bold;
 }
 
-nav .navbar-nav .nav-link:hover {
-    background-color: #6a0dad; /* Roxo forte */
-    color: #fff;
+.navbar .nav-link:hover {
+    color: #dcdcdc; /* Cor do texto ao passar o mouse */
 }
 
-/* Seções de Conteúdo */
-section.container {
+/* Estilo do carrossel */
+.carousel-inner img {
+    max-height: 400px; /* Define a altura máxima das imagens */
+    object-fit: cover; /* Ajusta a imagem para preencher a altura sem distorcer */
+    width: 100%; /* Garante que a imagem tenha a largura completa do contêiner */
+}
+
+/* Estilo das seções */
+section {
+    background-color: #fff; /* Fundo branco para as seções */
     padding: 20px;
-    background-color: #fff;
-    margin-top: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-left: 5px solid #6a0dad; /* Detalhe em roxo */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 section h2 {
-    font-size: 1.5em;
-    color: #6a0dad; /* Roxo forte */
-    margin-bottom: 15px;
+    color: #4b0082; /* Cor roxa para os títulos das seções */
 }
 
-section p {
-    line-height: 1.6;
-}
-
-section img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 15px;
-}
-
-/* Cartões de Produtos */
-.card {
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-    border: none;
-}
-
-.card .card-title {
-    font-size: 1.25em;
-    color: #6a0dad; /* Roxo forte */
-}
-
-.card .card-text {
-    font-size: 1em;
-    color: #333;
-}
-
-.card img {
-    max-width: 100%;
-    height: auto;
-}
-
-.card .text-muted {
-    font-size: 0.9em;
-    color: #666;
-}
-
-/* Rodapé */
+/* Estilo do rodapé */
 footer {
-    background-color: #4b0082; /* Roxo escuro */
+    background-color: #4b0082; /* Cor de fundo roxa escura */
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 20px 0;
     margin-top: 20px;
 }
 
-footer img {
-    max-width: 200px;
-    height: auto;
-    margin-top: 10px;
+footer p {
+    margin: 0;
 }
 
-/* Estilos Responsivos */
-@media (max-width: 768px) {
-    header img {
-        max-width: 100px;
-    }
+/* Estilo das listas de formas de pagamento */
+ul {
+    list-style-type: none; /* Remove os marcadores das listas */
+    padding: 0;
+}
 
-    nav .navbar-nav .nav-link {
-        padding: 10px;
-    }
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
 
-    section.container {
-        padding: 15px;
-    }
+/* Estilo para as imagens de formas de pagamento */
+footer img {
+    max-width: 200px; /* Tamanho máximo das imagens no rodapé */
+    margin-top: 10px;
 }
